@@ -119,7 +119,6 @@ class EmployeeServiceTest {
         Employee actualEmployee = employeeService.remove(firstName1, lastName1);
         assertEquals(expectedEmployee1, actualEmployee);
 
-        cleanEmployees();
 
     }
 
